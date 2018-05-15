@@ -2,16 +2,16 @@ export default {
   MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: "us-east-1",
-    BUCKET: "notes-app-uploads-jp"
+    BUCKET: "notes-app-uploads-oci-dev-2"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://kjg8mr21gg.execute-api.us-east-1.amazonaws.com/prod"
+    URL: "https://6rjfm74mpb.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-east-1",
-    USER_POOL_ID: "us-east-1_xfxD09T5e",
-    APP_CLIENT_ID: "7rlefscsnip3p2931p7fb32ae9",
-    IDENTITY_POOL_ID: "us-east-1:c87860c6-430d-4f03-831f-3d43424ab740"
+    USER_POOL_ID: "us-east-1_hCNoe4ORO",
+    APP_CLIENT_ID: "3bqt1pu214ca0evo1jtdub8tlq",
+    IDENTITY_POOL_ID: "us-east-1:9c000fde-778f-4dd4-9b7b-520084811045"
   }
 };
